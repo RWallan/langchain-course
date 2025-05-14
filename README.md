@@ -28,6 +28,9 @@ Dessa forma, você terá acesso aos notebooks com o [Jupyter Notebook](https://g
 poetry run jupyter notebook
 ```
 
+> [!NOTE]
+> Esse repositório conta com dois serviços que precisam de API keys, a [OpenAI](https://openai.com/index/openai-api/) e [Pinecone](https://www.pinecone.io/). Portanto, copie o arquivo `.env.example` para `.env` e preencha as suas keys.
+
 ## Licença
 
 Esse repositório está sob a licença AFL.
