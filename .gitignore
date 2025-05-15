@@ -3,3 +3,4 @@ cache_dir/
 .venv/
 .env
 *.db
+__pycache__
