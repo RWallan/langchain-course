@@ -18,7 +18,8 @@ dependencies = [
     "pandas (>=2.2.3,<3.0.0)",
     "scikit-learn (>=1.6.1,<2.0.0)",
     "matplotlib (>=3.10.3,<4.0.0)",
-    "streamlit (>=1.45.1,<2.0.0)"
+    "streamlit (>=1.45.1,<2.0.0)",
+    "pinecone (>=6.0.2,<7.0.0)"
 ]
 
 [tool.poetry]
@@ -32,6 +33,9 @@ line-length = 79
 
 [tool.ruff.format]
 quote-style = "single"
+
+[tool.ruff.lint]
+preview = true
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
