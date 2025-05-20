@@ -4,3 +4,4 @@ cache_dir/
 .env
 *.db
 __pycache__
+*.pdf
